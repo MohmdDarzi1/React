@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "yekan";
+  direction: rtl;
+}
+
+.active {
+  color: #2196f3;
+}
+
+/* Fonts  */
+@font-face {
+  font-family: "IranSans";
+  src: url("../src/assets/fonts/Iranian\ Sans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("../src/assets/fonts/BYekan+.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yekanBold";
+  src: url("../src/assets/fonts/BYekan+\ Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
